@@ -3,7 +3,7 @@
 """
 import pandas as pd
 
-happy_enriched = pd.read_csv('happy_data_enriched.csv', engine = 'python')
+happy_enriched = pd.read_csv('../input/happy_data_enriched.csv', engine = 'python')
 
 def get_df(countries, variables):
     variables= ['Country or region'] + variables
